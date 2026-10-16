@@ -54,7 +54,12 @@ input[type="checkbox"], input[type="radio"] { accent-color: #4AD66D; }
 #listrow_money { font-weight: 700 !important; }
 #listrow_lifep { font-size: 14px !important; }
 
-/* DarkVision Chaos – Hinweise besser lesbar */
-.framepersonne, .frameitemne {
-    background-color: #303640 !important;
+
+/* DarkVision Chaos – Personenhinweis */
+p.personlistcaption {
+    background: #303640 !important;
+    background-image: none !important;
     color: #F3F4F6 !important;
+    border: 1px solid #505866 !important;
+}
+
