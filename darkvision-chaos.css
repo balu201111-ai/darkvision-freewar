@@ -1,0 +1,55 @@
+/* DarkVision Chaos 1.0 - Ergänzung zum vorhandenen Chaos-Freewar-Style.
+   Die Originaldatei bleibt für Kartenmarkierungen und Sonderfunktionen eingebunden. */
+@import url("https://afcf-stats.de/css/merged_all.css");
+
+/* Grundfarben */
+html, body, .body { background-color: #101216 !important; color: #F3F4F6 !important; }
+p, ul, ol, td, span, layer, table, body:not(.framemapbg) div { color: #F3F4F6; }
+a:link, a:visited { color: #8B9DFF; }
+a:hover, a:active { color: #83CAFF; }
+
+/* Fenster und Seitenleisten: Hintergrundbilder aus dem hellen Original ersetzen */
+.framechatformbg, .framechattextbg, .framemainbg, .frameitembg,
+.framemapbg, .framemenubg, .menubg, .brightbg, .verybrightbg,
+.reallybrightbg, .whitebg, .brownbg, .borderbg {
+  background-color: #1B1E24 !important;
+  background-image: none !important;
+}
+.framechattextbg { background-color: #101216 !important; }
+
+/* Kartenfelder und Sondermarkierungen des Originalstyles nicht überschreiben */
+p.listrow, p.listitemrow, p.listplaceitemsrow, p.listusersrow,
+p.maindesc1, p.maindesc2, table.areadescription, .abilitymenu tr, .friendlist tr {
+  background-color: #1B1E24 !important;
+  border-color: #424851 !important;
+}
+p.listcaption, p.maincaption, p.maincaption2, td.mainheader {
+  background-color: #292E37 !important;
+  background-image: none !important;
+  color: #F3F4F6 !important;
+}
+p.positiontext { background-color: #292E37 !important; color: #F3F4F6 !important; }
+
+/* Eingabefelder */
+input, textarea, select, button, .input {
+  background-color: #292E37 !important;
+  color: #F3F4F6 !important;
+  border-color: #68717E !important;
+}
+input[type="checkbox"], input[type="radio"] { accent-color: #4AD66D; }
+
+/* Chatfarben */
+.chattext { color: #F3F4F6 !important; }
+.chattextscream { color: #62D6FF !important; }
+.chattextclan { color: #72E06A !important; }
+.chattextworldsay { color: #C4A0FF !important; background-color: #252139 !important; }
+.chattextwhisper { color: #83CAFF !important; }
+.chattextmod { color: #FF6464 !important; }
+.chattextinfo, .chattextinfo:before { color: #FF9F43 !important; }
+.healthok { color: #4AD66D !important; }
+.healthmed { color: #FFD54A !important; }
+.healthcritical { color: #FF6464 !important; }
+
+/* Gewohnte Charakterwerte */
+#listrow_money { font-weight: 700 !important; }
+#listrow_lifep { font-size: 14px !important; }
